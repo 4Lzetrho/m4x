@@ -1,13 +1,4 @@
 <?php
-
-"""
-Author             : 4lzetrho
-contact            : beukasih@gmail.com
-Github             : https://github.com/4lzetrho
-my youtube channel : -
-^_^
-"""
-
 function request($url, $data = null, $headers = null, $put = null)
 {
 	$ch = curl_init();
